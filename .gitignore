@@ -1,3 +1,34 @@
 node_modules/
+.npm/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Vite / build caches ===
 dist/
+.vite/
+coverage/
+
+# === Electron builds / artifacts ===
+out/
+release/
+*.asar
+
+# === OS / Editors ===
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.tmp
+
+# === Misc ===
+.eslintcache
+*.log
+
+# === Env files (si llegas a usarlos) ===
+.env
+.env.local
+.env.*.local
